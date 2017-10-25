@@ -98,6 +98,7 @@ The model was only able to guess 2 out of 5, giving an accuracy of 40%.
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction.
 
 For the first image, the model was fairly certain it was a speed limit
+
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 2.4         			| Speed limit   									        | 
@@ -108,6 +109,7 @@ For the first image, the model was fairly certain it was a speed limit
 
 
 For the second image (inconclusive) ... 
+
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 3.1        			| Right of way   						        | 
@@ -117,6 +119,7 @@ For the second image (inconclusive) ...
 | 0.4				    | Traffic Signals      				            |
 
 For the third (inconclusive) ...
+
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 5.2         			| Turn right ahead   									        | 
@@ -126,6 +129,7 @@ For the third (inconclusive) ...
 | 0				        | Dangerous curve to left      							            |
 
 For the fourth (inconclusive) ...
+
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 10.7         			| End of no passing  (80kmh) 									        | 
@@ -135,6 +139,7 @@ For the fourth (inconclusive) ...
 | 1.4				    | End of all speed/passing limits      							            |
 
 For the fifth, fairly sure it is a stop sign, and is correct
+
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 23.0         			| Stop   									        | 
