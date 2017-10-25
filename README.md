@@ -18,10 +18,7 @@ The goals / steps of this project are the following:
 
 #### 2. Include an exploratory visualization of the dataset.
 Here is a bar chart of the classes (before we create extras so that no classes are less than the mean):
-![Class Bar chart][image1]
-
-And a randomly printed sign:
-![Random sign][image2]
+![Class Bar chart](traffic_pics/traffic.png)
 
 ### Design and Test a Model Architecture
 
@@ -73,10 +70,12 @@ My final model results were:
 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
-Here are five German traffic signs that I found on the web:
-
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+Here are five German traffic signs that I found on the web:  
+![Traffic Sign](traffic_pics/traffic2.png)  
+![Traffic Sign](traffic_pics/traffic3.png)  
+![Traffic Sign](traffic_pics/traffic4.png)  
+![Traffic Sign](traffic_pics/traffic5.png)  
+![Traffic Sign](traffic_pics/traffic6.png)  
 
 I used the `imagemagick` linux program to resize all of the images to 32x32. this results in some blurry and skewed photos, which lead to not great performance.
 
